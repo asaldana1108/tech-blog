@@ -1,0 +1,124 @@
+:root {
+    --primary: #ccdad1;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --light-dark: #6f6866;
+    --dark: #38302e;
+    --border-radius: .3rem;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+  color: var(--dark);
+  line-height: 1.25;
+}
+
+main {
+  margin: 20px auto;
+  width: 94%;
+}
+
+.hero {
+    padding: 3% 4%;
+    background-color: var(--dark);
+    color: var(--primary);
+}
+  
+.hero p {
+    max-width: 75%;
+}
+
+.app-title {
+    font-size: 3rem;
+    background-color: var(--primary);
+    color: var(--dark);
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    box-shadow: 6px 5px var(--light-dark);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 10px; 
+}
+
+nav button {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 10px; 
+    border: none;
+    background: none;
+    font-size: 16px; 
+}
+
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+}
+
+.card-header {
+    color: var(--primary);
+    background-color: var(--dark);
+    padding: 2.5%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+}
+
+.title {
+    color: var(--primary);
+    background-color: var(--dark);
+    padding: 2.5%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+.title a {
+    text-decoration: none; 
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.content {
+    font-size: 1.1rem;
+    margin: 0 0 0 5px;
+}
+
+.meta {
+    color: var(--primary);
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+/* .signup-form {
+
+}
+
+.login-form {
+
+} */
+
